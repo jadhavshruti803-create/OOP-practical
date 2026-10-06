@@ -1,0 +1,27 @@
+#include<iostream>
+#include<string>
+using namespace std;
+class Employee
+{
+    private:
+    int id;
+    sting name;
+    string department;
+    double salary;
+
+}
+public
+
+void setDetail(int empld,string empName,string empDept,double empSal)
+{
+    id=empld;
+    name=empName;
+    department=empDept;
+    salary=empSal;
+}
+void displayinfo(bool authorized)const
+{
+    if(authorized){
+        cout<<"ID:"<<id<<"\n"
+    }
+}
